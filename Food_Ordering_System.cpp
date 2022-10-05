@@ -4,12 +4,12 @@ int main(){
     int idly = 50;
     char choice;
     float price,money,change;
-    cout<<"------------IDLYGO-------------"<<endl<<endl;
-    cout<<"[R - Regular] - Idly Price: \t\t\t\t\tPHP 50.00"<<endl;
-    cout<<"[C - Cheese] - Add Cheese \t\t\t\t\t PHP 5.00"<<endl;
-    cout<<"[E - Egg] - Add Egg \t\t\t\t\t\t PHP 6.00"<<endl;
-    cout<<"[S - Sandwich] - Add Sandwich & Cheese \t\t\t\t PHP 11.00"<<endl;
-    cout<<"[M - Mushroom] - Add Mushroom, Sandwich & Cheese \t\t PHP 17.00"<<endl;
+    cout<<"-----------------IDLYGO-------------------"<<endl<<endl;
+    cout<<"[R - Ragi Idly] - Price .................. \t\t\t\t\t\t PHP 50.00"<<endl;
+    cout<<"[K - Kanchipuram Idly] - Price ........... \t\t\t\t\t\t PHP 55.00"<<endl;
+    cout<<"[E - Rava Idly] - Price ..................\t\t\t\t\t\t PHP 56.00"<<endl;
+    cout<<"[S - Oats Idly] - Price ...................\t\t\t\t\t\t PHP 61.00"<<endl;
+    cout<<"[M - Stuffed Idly] - Price ................ \t\t\t\t\t\t PHP 57.00"<<endl;
     cout<<"\n\n";
     cin>>choice;
     switch (choice){
@@ -25,7 +25,7 @@ int main(){
         case 'S' : price = idly + 11;
         cout<<"\nthat will be PHP "<<price<<".00"<<endl;
         break;
-        case 'M' : price = idly + 17;
+        case 'M' : price = idly + 7;
         cout<<"\nthat will be PHP "<<price<<".00"<<endl;
         break;
 
